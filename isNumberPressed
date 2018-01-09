@@ -1,0 +1,7 @@
+function checkNumbers(char) {
+		if (char == 8 || char == 46 || char == 13 || char == 190 || char == 0 || char == 110 || (char >= 48 && char <= 57) || (char >= 37 && char <= 40) || (char >= 90 && char <= 105) ){
+			return true;
+		} else {
+			return false;
+		}
+	}
