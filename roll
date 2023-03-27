@@ -1,0 +1,15 @@
+function roll() {
+  console.clear();
+  const num = Math.floor(Math.random() * 6);
+  const matrix = [
+    ["·····", "··O··", "·····"],
+    ["····O", "·····", "O····"],
+    ["····O", "··O··", "O····"],
+    ["O···O", "·····", "O···O"],
+    ["O···O", "··O··", "O···O"],
+    ["O···O", "O···O", "O···O"],
+  ];
+
+  const numberMatrix = matrix[num];
+  console.log(numberMatrix.join('\n'), numberMatrix.join('\n'));
+}
