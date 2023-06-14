@@ -1,2 +1,2 @@
 # snippets
-# Here are some interesting stuff
+# Here you can find some custom JS snippets
