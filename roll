@@ -11,5 +11,5 @@ function roll() {
   ];
 
   const numberMatrix = matrix[num];
-  console.log(numberMatrix.join('\n'), numberMatrix.join('\n'));
+  console.log(numberMatrix.join('\n'));
 }
